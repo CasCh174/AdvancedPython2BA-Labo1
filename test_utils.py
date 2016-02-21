@@ -11,13 +11,13 @@ class TestUtils(unittest.TestCase):
         self.assertEqual(utils.fact(5) , 120)
     
     def test_roots(self):
-        self.assertEqual(utils.roots(0,0,1), ())
-        self.assertEqual(utils.roots(0,1,0), (0))
-        self.assertEqual(utils.roots(2,0,2), (1,-1))
+        self.assertEqual(utils.roots(0,0,1), 0)
+        self.assertEqual(utils.roots(2,0,2), ())
         
     
     def test_integrate(self):
         # À compléter...
+        # je fais ce que je veux sur la branche test :)
         pass
 
 if __name__ == '__main__':
