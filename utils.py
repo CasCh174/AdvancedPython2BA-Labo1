@@ -9,6 +9,11 @@ def fact(n):
     Post: Returns the factorial of 'n'.
     Throws: ValueError if n < 0
     """
+    res=1
+    while n>0:
+        res=res*n
+        n-=1
+    return (res)
 
 def roots(a, b, c):
     """Computes the roots of the ax^2 + bx + x = 0 polynomial.
