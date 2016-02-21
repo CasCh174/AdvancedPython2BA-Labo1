@@ -18,6 +18,7 @@ class TestUtils(unittest.TestCase):
     
     def test_integrate(self):
         # À compléter...
+        # je fais ce que je veux sur la branche test :)
         pass
 
 if __name__ == '__main__':
