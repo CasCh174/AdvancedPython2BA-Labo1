@@ -13,12 +13,12 @@ class TestUtils(unittest.TestCase):
     def test_roots(self):
         self.assertEqual(utils.roots(0,0,1), 0)
         self.assertEqual(utils.roots(2,0,2), ())
-        
     
     def test_integrate(self):
-        # À compléter...
-        # je fais ce que je veux sur la branche test :)
-        pass
+        self.assertTrue(utils.integrate('x**2 - 1', -1, 1) > -1.4)
+        self.assertTrue(utils.integrate('x**2 - 1', -1, 1) < -1.2)
+        
+        
 
 if __name__ == '__main__':
     suite = unittest.TestLoader().loadTestsFromTestCase(TestUtils)
